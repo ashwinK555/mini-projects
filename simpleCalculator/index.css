@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    width: 50px;
+}
+
+#main-container{
+    width: 300px;
+    background-color: #d1c7c76c; 
+}
+body{
+    text-align: center;
+}

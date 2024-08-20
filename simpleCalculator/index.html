@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container  d-flex flex-column justify-content-center- align-items-center">
+        <h3 class="mt-2 border-bottom border-primary w-25 text-center">Simple Calculator</h3>
+    <div  id="main-container" class=" m-auto mt-3 shadow-lg  p-2 rounded d-flex flex-column  border border-primary">
+        <div class="  top mt-4 mb-4">
+            <input type="text" id="answer" class="form-control top-answer border border-primary" name="answer">
+        </div>
+        <div class="bottom d-flex flex-column justify-content-center- align-items-center border border-error">
+            <div class="d-flex my-2 flex-direction-row">
+                <div class=" mx-4 "> <button onclick="Displaydata('0')" type="button" class="btn btn-secondary">0</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('1')" type="button" class="btn btn-secondary">1</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('2')" type="button" class="btn btn-secondary">2</button></div>
+            </div>
+            <div class="d-flex flex-row  my-2">
+                <div class=" mx-4 "> <button onclick="Displaydata('3')" type="button" class="btn btn-secondary">3</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('4')" type="button" class="btn btn-secondary">4</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('5')" type="button" class="btn btn-secondary">5</button></div>
+            </div>
+            <div class="d-flex flex-row  my-2">
+                <div class=" mx-4 "> <button onclick="Displaydata('6')" type="button" class="btn btn-secondary">6</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('7')" type="button" class="btn btn-secondary">7</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('8')" type="button" class="btn btn-secondary">8</button></div>
+            </div>
+            <div class="d-flex flex-row  my-2">
+                <div class=" mx-4 "> <button onclick="Displaydata('9')" type="button" class="btn btn-secondary">9</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('+')" type="button" class="btn btn-secondary">+</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('-')" type="button" class="btn btn-secondary">-</button></div>
+            </div>
+            <div class="d-flex flex-row  my-2">
+                <div class=" mx-4 "> <button onclick="Displaydata('*')" type="button" class="btn btn-secondary">*</button></div>
+                <div class="mx-4"> <button onclick="Displaydata('/')" type="button" class="btn btn-secondary">/</button></div>
+                <div class="mx-4"> <button onclick="clearData()" type="button" class="btn btn-secondary">c</button></div>
+            </div>
+            <div class="d-flex flex-row w-100 my-2">
+                <button onclick="myfunction()" type="button" class="btn btn-secondary w-100">=</button>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+      <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
