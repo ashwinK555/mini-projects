@@ -1,0 +1,14 @@
+/* #container{
+   align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+} */
+#list-container{
+     border: 2px solid red;
+     margin: 5px;
+     width: 250px;
+}
+.container{
+    background-color: bisque;
+}
